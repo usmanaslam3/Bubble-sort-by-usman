@@ -1,0 +1,25 @@
+Binary Search
+
+Binary search is a widely used search algorithm in data structures and algorithms. It is an efficient algorithm for finding a specific element in a sorted array or list. Binary search works by repeatedly dividing the search interval in half until the target element is found or the search interval becomes empty.
+
+1. Start with the entire sorted array.
+2. Calculate the middle index of the current search interval.
+3. Compare the middle element with the target element.
+4. If they are equal, the search is successful, and the index of the target element is returned.
+5. If the middle element is greater than the target element, update the search interval to the left half (excluding        the middle element) and repeat from step 2.
+6. If the middle element is less than the target element, update the search interval to the right half (excluding the middle element) and repeat from step 2.
+7. Continue this process until the target element is found or the search interval becomes empty.
+
+Example.
+Loc =-1
+B=1 , E=N
+while B<=E
+mid=[(B+E)2]
+if item = A[mid] then
+LOC =mid [exit loop]
+else if item > A[item]
+B=mid +1 
+else
+E=mid-1
+
+
